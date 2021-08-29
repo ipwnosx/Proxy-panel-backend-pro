@@ -225,8 +225,8 @@ span.red {
   color: #009688;
   font-size: 15px;
   padding: 8px 10px;
-  border-color: #8300ff;
-  box-shadow: 0 0px 16px #8e1efe;
+  border-color: #0a4281;
+  box-shadow: 0 0px 16px #0078ff;
   letter-spacing: 1px;
   height: calc(1.4em + 1.4rem + 2px);
   padding: .75rem 1.25rem;
@@ -494,10 +494,10 @@ select.form-control.form-custom {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px); 1px
     solid #5c1ac3 !important;
-    color: #5c1ac3 !important;
+    color: #0a4281 !important;
     background-color: transparent;
     box-shadow: none;
-    box-shadow: 0 0 25px rgb(127 0 249) !important;
+    box-shadow: 0 0 25px rgb(10 66 129) !important;
     -webkit-transition: .2s linear !important;
     transition: .2s linear;
     }
@@ -757,20 +757,24 @@ select.form-control.form-custom {
 
 .btn-secondary {
   color: #fff !important;
-  background-color: #5c1ac3;
-  border-color: #5c1ac3; }
+  background-color: #0a4281;
+  border-color: #00388a;
+  }
   .btn-secondary:hover, .btn-secondary:focus {
     color: #fff !important;
-    background-color: #5c1ac3;
+    background-color: #0a4281;
     box-shadow: none;
-    border-color: #5c1ac3; }
+    border-color: #0a4281;
+    }
   .btn-secondary:active, .btn-secondary.active {
-    background-color: #5c1ac3;
-    border-top: 1px solid #5c1ac3; }
+    background-color: #0a4281;
+    border-top: 1px solid #0a4281;
+    }
   .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active {
     color: #fff !important;
-    background-color: #5c1ac3;
-    border-color: #5c1ac3; }
+    background-color: #0a4281;
+    border-color: #0a4281;
+    }
 
 .show > .btn-secondary.dropdown-toggle {
   color: #fff !important;
@@ -1238,10 +1242,11 @@ select.form-control.form-custom {
   box-shadow: none; }
 
 .btn-outline-secondary {
-  border: 1px solid #5c1ac3 !important;
-  color: #5c1ac3 !important;
+  border: 1px solid #0a4281 !important;
+  color: #0a4281 !important;
   background-color: transparent;
-  box-shadow: none; }
+  box-shadow: none;
+  }
 
 .btn-outline-dark {
   border: 1px solid #3b3f5c !important;
@@ -1274,7 +1279,8 @@ select.form-control.form-custom {
 
 .btn-outline-secondary:hover {
   color: #fff !important;
-  background-color: #5c1ac3; }
+  background-color: #0a4281;
+  }
 
 .btn-outline-dark:hover {
   color: #fff !important;

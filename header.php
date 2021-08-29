@@ -48,7 +48,6 @@ echo '
 
 <style>
 
-
 @media only screen and (max-width: 768px) {
 
 #sidebar .theme-brand {
@@ -64,20 +63,21 @@ echo '
 }
 
 .col-xl-12.col-md-12.col-sm-12.col-12 {
-    background: #430182;
+    background: #0a4281;
     border-radius: 3px;
 }
 
 .widget-content.widget-content-area.clipboard-copy-textarea {
-    background: #18002f;
-}
+    background: #00062f;
+	}
+	
 
 div {}
 
 textarea#textarea-copy {
     color: white;
-    background: #140027;
-}
+    background: #000933;
+ }
 
 li.menu {
     background: #260e3e;
@@ -89,11 +89,12 @@ span.card-price {
 }
 
 li.list-group-item.d-flex.justify-content-between.align-items-center {
-    background: #430182;
+    background: #046fc5;
     text-align: center !important;
+    color: white !important;
 }
     div#container {
-    background: #140027  !important;
+    background: #111325  !important;
 }
 
 
@@ -136,5 +137,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 }
 
 
+</style>
 </style>
 

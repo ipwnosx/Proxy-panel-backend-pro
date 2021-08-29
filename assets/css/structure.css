@@ -35,8 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent; }
 
 ::selection {
-  color: #1b55e2;
-  background: transparent; }
+  color: #ffffff;
+  background: transparent;
+  }
 
 p {
   margin-top: 0;
@@ -191,7 +192,7 @@ code {
   position: relative;
   /* border-bottom-left-radius: 6px; */
   /* border-bottom-right-radius: 6px; */
-  background: #18002f;
+  background: #000933;
   }
 
 .content-area {
@@ -787,7 +788,7 @@ code {
   justify-content: space-between;
   width: 225px;
   font-size: 5px !important;
-  width: 259px;
+  width: 231px;
   }
 
 .sidebar-closed #sidebar .theme-brand {
@@ -833,7 +834,11 @@ a.nav-link {}
 #sidebar * {
   overflow: hidden;
   white-space: nowrap;
+  background: linear-gradient( 
+272deg
+ ,#063779 0%,#0c4784 100%);
   /* border: 1px solid #850efd; */
+  /* width: 74% !important; */
   }
 
 #sidebar ul.menu-categories {
@@ -920,11 +925,13 @@ a.nav-link {}
   justify-content: space-between;
   cursor: pointer;
   font-size: 13px;
-  color: #888ea8;
+  color: #ffffff;
   padding: 9px 20px;
+  font-size: 10p;
   font-weight: 600;
   /* border: 1px solid #430182; */
   transition: .600s;
+  text-transform: uppercase;
   /* border-color: #4a89e1; */
   /* box-shadow: 0 0px 16px #116cde; */
   }
@@ -961,9 +968,12 @@ a.nav-link {}
   color: #25d5e4; }
 
 #sidebar ul.menu-categories li.menu > .dropdown-toggle:hover {
-  color: #8200ff;
-  fill: #c2d5ff;
-  fill: rgb(67 1 130);
+  color: #ffffff;
+  fill: #002c8c;
+  fill: rgb(17 19 37);
+  background: linear-gradient( 
+272deg
+ ,#063779 0%,#0c4784 100%);
   }
   #sidebar ul.menu-categories li.menu > .dropdown-toggle:hover svg {
     color: #00ccff;
@@ -1154,8 +1164,14 @@ a.nav-link {}
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
-    border-color: #a94dff;
-    box-shadow: 0 5px 10px #c341f8;
+    border-color: #0a4281;
+    border-radius: 9px;
+    border: 12px solid #111325;
+    box-shadow: 0 0 25px rgb(2 120 228) !important;
+    box-shadow: 0 8px 23px #0c88ff;
+    background: linear-gradient( 
+272deg
+ ,#063779 0%,#0c4784 100%);
     /* border: solid 1px #7f00ff; */
     z-index: 999;
     }

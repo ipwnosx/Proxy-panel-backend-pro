@@ -21,15 +21,16 @@
     margin-bottom: 45px;
     letter-spacing: 0px;
     text-align: center;
-    color: #bfc9d4; }
+    color: #ffffff;
+    }
     .faq .faq-layouting .fq-tab-section h2 span {
-      color: #430182;
+      color: #54a9ed;
       }
   .faq .faq-layouting .fq-tab-section .accordion .card {
-    border: 2px solid #000000;
+    border: 2px solid #54a9ed;
     border-radius: 6px;
     margin-bottom: 4px;
-    background: #140027;
+    background: #0b4381;
     }
     .faq .faq-layouting .fq-tab-section .accordion .card .card-header {
       padding: 0;
@@ -42,15 +43,17 @@
         color: #009688;
         cursor: pointer; }
         .faq .faq-layouting .fq-tab-section .accordion .card .card-header > div[aria-expanded="true"] {
-          border-bottom: 2px solid #1b2e4b; }
+          border-bottom: 2px solid #063879;
+          }
       .faq .faq-layouting .fq-tab-section .accordion .card .card-header div .faq-q-title {
         overflow: hidden;
         font-size: 14px;
-        color: #888ea8;
+        color: #ffffff;
         font-weight: 600;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        }
       .faq .faq-layouting .fq-tab-section .accordion .card .card-header div[aria-expanded="true"] .faq-q-title {
-        color: #430182;
+        color: #ffffff;
         }
       .faq .faq-layouting .fq-tab-section .accordion .card .card-header div .icons {
         display: inline-block;
@@ -86,7 +89,8 @@
         font-size: 13px;
         line-height: 23px;
         letter-spacing: 1px;
-        color: #bfc9d4; }
+        color: #ffffff;
+        }
 
 /*
     Media Query
