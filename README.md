@@ -1,2 +1,3 @@
 # Proxy-panel-backend-pro
-A custom proxy front/backend in PHP
+A custom proxy panel manager for distribution 
+(front/backend) in PHP
